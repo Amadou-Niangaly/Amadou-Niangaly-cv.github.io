@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    font-style: inherit;
+    font-family: 'Roboto Condensed';
+   
+}
+header{
+    font-size: 25px;
+    z-index: 1;
+    width:100%;
+    height: 200px;
+    background-color:#2A354B  ;
+    color: #fff;
+    z-index: 10;
+    
+}
+.nomdev{
+    margin-left: 40px;
+}
+.section1{
+    width:60%;
+    float: left;
+    height: 100%;
+}
+.section2{ 
+    position: absolute;
+    margin-top: -60px;
+    z-index: 2;
+    float: right;
+    right: 0; 
+    width: 40%;
+    height: 200%;
+    background-color: #EFF0F2;
+    border-top-left-radius: 20px;
+    text-align: center;
+    z-index: 100;
+}
+.titre{
+    margin-top: 50px;
+    width: 80%;
+    height: 40px;
+    background-color: #EFF0F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; ;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.photo{
+    z-index: 3;
+    position: relative;
+    margin: auto;
+    top: -70px;
+    width: 300px;
+    height: 300px;
+    background-color:#EFF0F2 ;
+    border-radius: 10px;
+    
+}
+.main{
+    position: relative;
+}
+.maphoto{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.text1{
+    width: 80%;
+}
+.icons-list {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0;
+}
+.icons-list-item {
+    margin-bottom: 10px;
+}
+.icons-list-item  {
+    display: inline-block;
+    margin-left: 20px; /* Marge à gauche pour les icônes */  
+ 
+}
+
+a:not(.icons-list-item a) {
+    text-decoration: underline; /* Ajoute une décoration de texte (soulignement) */
+    color: blue; /* Changer la couleur des liens si nécessaire */
+}
+ul ,li{
+    font-size: 20px;
+}
+.fa-icon {
+    font-size: 24px; /* Taille de l'icône */
+    margin-right: 5px; /* Marge à droite de l'icône */
+}
+.text-icon{
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    justify-content: center;
+}
+@media (max-width: 768px) {
+  /* Styles spécifiques aux mobiles */
+  body {
+    box-sizing: border-box;
+    font-style: inherit;
+    font-family: 'Roboto Condensed';
+    font-size: 12px;  
+}
+ul ,li{
+    font-size: 10px;
+}
+.fa-icon {
+    font-size: 16px; /* Taille de l'icône */
+    margin-right: 3px; /* Marge à droite de l'icône */
+}
+.maphoto{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.photo{
+    z-index: 3;
+    position: relative;
+    margin: auto;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    background-color:#EFF0F2 ;
+    border-radius: 10px;
+    
+}
+header{
+    font-size: 14px;
+    z-index: 1;
+    width:100%;
+    height: 150px;
+    background-color:#2A354B  ;
+    color: #fff;
+    z-index: 10;
+    
+}
+.titre{
+    margin-top: 15px;
+    width: 80%;
+    height: 20px;
+    background-color: #EFF0F2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; ;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles spécifiques aux tablettes */
+}
+
+@media (min-width: 1024px) {
+  /* Styles spécifiques aux ordinateurs portables et ordinateurs de bureau */
+}
