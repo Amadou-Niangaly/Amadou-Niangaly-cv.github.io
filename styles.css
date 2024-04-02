@@ -126,16 +126,16 @@ ul ,li{
 }
 .maphoto{
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 .photo{
     z-index: 3;
     position: relative;
     margin: auto;
     top: -40px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color:#EFF0F2 ;
     border-radius: 10px;
     
